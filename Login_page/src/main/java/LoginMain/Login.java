@@ -14,6 +14,10 @@ public class Login {
 
     //Create a constructor
 
+
+    public Login() {
+    }
+
     public Login(Long id, String username, String password) {
         this.id = id;
         this.username = username;
